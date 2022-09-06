@@ -68,10 +68,12 @@ function servePizza(pizzaDone) {
 function getPizzaOrder(size, crust, ...toppings) {
   for (let topping of toppings) {
     console.log(`One ${size} ${crust} crust pizza with ${toppings} coming up`);
-  }
-  return pizzaOrder = { size, crust, ...toppings };
+  } return pizzaOrder = { size, crust, ...toppings };
+}
 
-  getPizzaOrder("large", "thin", "pepperoni", "bacon");
+getPizzaOrder("large", "thin", "pepperoni", "bacon");
+
+let pizzaOrder = function getPizzaOrder(size, crust, ...toppings);
 
 function preparePizza(pizzaOrder) {
   console.log("...Cooking pizza...");
@@ -82,6 +84,8 @@ function preparePizza(pizzaOrder) {
   };
   return pizzaDone;
 }
+
+let pizzaDone = function preparePizza(pizzaOrder);
 
   function servePizza(pizzaDone) {
 

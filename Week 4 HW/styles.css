@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box ;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+  border: 1px solid;
+}
+
+#stephen {
+  margin: auto;
+  display: block;
+  width: 275px;
+height: 350px;
+}
+
+.position {
+  color:blue;
+}
+
+ol li {
+  color: goldenrod
+}
+
+footer {
+  text-align: end;
+}

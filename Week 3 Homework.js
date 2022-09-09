@@ -64,37 +64,7 @@ function servePizza(pizzaDone) {
 //  6 Call each function and (starting with preparePizza) use the returned value from the previous function as its input
 
 
+servePizza(preparePizza(getPizzaOrder("large", "thin", "pepperoni", "bacon")));
 
-function getPizzaOrder(size, crust, ...toppings) {
-  for (let topping of toppings) {
-    console.log(`One ${size} ${crust} crust pizza with ${toppings} coming up`);
-  } return pizzaOrder = { size, crust, ...toppings };
-}
 
-getPizzaOrder("large", "thin", "pepperoni", "bacon");
 
-let pizzaOrder = function getPizzaOrder(size, crust, ...toppings);
-
-function preparePizza(pizzaOrder) {
-  console.log("...Cooking pizza...");
-  let pizzaDone = {
-    size: size,
-    crust: crust,
-    toppings: toppings
-  };
-  return pizzaDone;
-}
-
-let pizzaDone = function preparePizza(pizzaOrder);
-
-  function servePizza(pizzaDone) {
-
-    for (let topping of toppings) {
-      console.log(
-        "Order up! Here's your ${size} ${crust} crust pizza with {toppings}, enjoy! "
-      );
-    }
-    return pizzaDone;
-  }
-
-  console.log(pizzaDone);

@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h1 {
+width: 266px;
+height: 36px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+margin: auto;
+}
+
+
+#forum {
+  width: 959px;
+  height: 687px;
+  background: rgba(55, 80, 105, 0.1);
+  opacity: 0.5;
+  border-radius: 50px 0px;
+}
+
+#larry {
+width: 300px;
+height: 635px;
+}
+
+#steph {
+  width: 335px;
+  height: 489px;
+z-index: 3;
+}
+
+#wilt {
+  width: 374px;
+height: 500px;
+  z-index: 2;
+}
+
+#mj {
+  width: 394px;
+  height: 713px;
+z-index: 1;
+}
+
+#home-icon{
+width: 70px;
+height: 64px;
+}
+
+#ai-lue {
+width: 200px;
+height: 150px;
+}
+
+#rank-icon {
+width: 85px;
+height: 65px;
+}
+
+#compare-icon {
+width: 68px;
+height: 64px;
+}
+
+#signin-icon {
+width: 72px;
+height: 79px;
+
+
+
+}
+
+#wade {
+  position: absolute;
+  width: 390px;
+  height: 592px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 25px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+
+}
+
+header nav ul{
+  padding: 10px 0;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  border-bottom: 2px solid grey;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: baseline;
+}
+
+.nav-link {
+  align-items: flex-end;
+}

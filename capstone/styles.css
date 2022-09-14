@@ -1,42 +1,34 @@
 *{
   box-sizing: border-box;
+  margin: 0;
+  padding 0;
 }
 
 body {
   background-color: azure;
 }
-header {
+
+.headerBar {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-around;
-   position: fixed;
-   width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
+  justify-content: space-between;
   background-color: goldenrod;
-  height: 120px;
+  width: 100vw;
+  position: fixed;
 
 }
 
-#header-img{
-  margin-right: 50px;
-}
-
-.icons {
-  text-decoration: none;
-  padding: 4px;
-  position: relative;
-  top: 30px;
+#nav-bar{
+  margin-top: 3rem;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 15px;
 }
 
 .nav-link {
-  padding: 5px 5px 0 5px;
   margin-top: 10px;
-  width: 50px;
-  height: 44px;
-
+  width: 65x;
+  height: 55px;
 
 }
 
@@ -46,24 +38,21 @@ footer {
 
 h1 {
   text-align: center;
-  margin-top: 135px;
+  margin-top: 80px;
 }
 
-.main-wrapper{
+.topPage {
   display: flex;
   flex-wrap: nowrap;
-
+  margin-top: 200px;
+  margin-left: 30px;
 }
 
 #blog {
   width: 800px;
 height: 500px;
-  opacity: 0.5;
 box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
 border-radius: 50px 0px;
 }
 
-.collage {
-  float: left;
-  z-index: 1;
-}
+

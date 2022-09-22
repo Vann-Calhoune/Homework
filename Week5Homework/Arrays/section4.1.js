@@ -232,7 +232,14 @@ const data = [
 ];
 
 // Create and print a list of phone numbers.
-console.log(data.forEach(user => console.log(user.phone)));
+const phoneNum = [];
+data.map(user => {
+  let numbers = user.phone;
+
+  phoneNum.push(numbers);
+});
+
+console.log(phoneNum);
 
 // create and print a list of website and email pairs (pair them in a string, array or object).
 const contact = [];

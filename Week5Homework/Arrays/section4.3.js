@@ -715,7 +715,7 @@ console.log(userFiveTweets);
 
 //Create a list of title and body pairs.
 
-const tweets = data.map(user => {
+const tweets = userFiveTweets.map(user => {
   let head = user.title;
   let title = user.body;
 

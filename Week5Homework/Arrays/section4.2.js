@@ -1211,11 +1211,11 @@ const data = [
 ];
 
 // Create a list of user 9's to-dos.
-const nineToDo = data.filter(task => task.userId === 9);
-console.log(nineToDo);
+// const nineToDo = data.filter(task => task.userId === 9);
+// console.log(nineToDo);
 
 // Find the number of user 9's incomplete tasks.
 const incompleteTasks9 = data.filter(
   task => task.userId === 9 && task.completed === false
 );
-console.log(incompleteTasks9);
+console.log(incompleteTasks9.length);
